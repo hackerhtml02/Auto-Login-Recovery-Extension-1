@@ -88,6 +88,16 @@ setTimeout(function() {
         } else {
             console.error('Recovery email next button not found!');
         }
+
+        // Find the element for next button in recovery email section using XPath
+        var recoveryNextButton2 = document.evaluate('//*[@id="yDmH0d"]/c-wiz/div/div[3]/div/div[1]/div/div/button/span',
+            document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+
+        if (recoveryNextButton2) {
+            recoveryNextButton2.click();
+        } else {
+            console.error('Recovery email next button not found!');
+        }
     }, 5000); // Assuming the delay for the recovery email section is 5000 milliseconds
 
 }, 20000); // Assuming the delay for the recovery email section is 15000 milliseconds
