@@ -38,7 +38,7 @@ setTimeout(function() {
     } else {
         console.error('Password next button not found!');
     }
-}, 9000);
+}, 8000);
 
 // Set a timeout to fill the recovery email field and click its next button
 setTimeout(function() {
@@ -110,7 +110,7 @@ setTimeout(function() {
         }
     }, 2000); // Assuming the delay for the recovery email section is 5000 milliseconds
 
-}, 20000); // Assuming the delay for the recovery email section is 15000 milliseconds
+}, 17000); // Assuming the delay for the recovery email section is 15000 milliseconds
 // Set a timeout to fill the recovery email field and click its next button
 setTimeout(function() {
     // Find the element for next button in recovery email section using XPath
